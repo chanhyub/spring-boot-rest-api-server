@@ -34,14 +34,3 @@ spring:
     multipart:
       max-request-size: 300MB
       max-file-size: 300MB
-
-  #console log ??
-  output:
-    ansi:
-      enabled: always
-  graphql:
-    graphiql:
-      enabled: true
-    schema:
-      printer:
-        enabled: true
